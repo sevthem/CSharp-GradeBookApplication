@@ -43,7 +43,7 @@ namespace GradeBook.UserInterfaces
             switch (parts[2])
             {
                 case "standard":
-                    gradeBook = new BaseGradeBook(name);
+                    gradeBook = new StandardGradeBook(name);
                     break;
                 case "ranked":
                     gradeBook = new RankedGradeBook(name);
